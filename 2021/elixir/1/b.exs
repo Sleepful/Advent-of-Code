@@ -14,3 +14,5 @@ end)
 |> Stream.filter(&!is_nil&1)
 |> Stream.take(-1)
 |> Enum.each(&IO.puts&1)
+
+# cat input | elixir b.exs
